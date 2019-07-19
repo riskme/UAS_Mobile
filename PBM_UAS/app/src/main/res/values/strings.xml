@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Mari Belajar</string>
+
+    <style name="ButtonMenu">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+    <integer-array name="icon_huruf">
+        <item>@drawable/a</item>
+        <item>@drawable/b</item>
+        <item>@drawable/c</item>
+        <item>@drawable/d</item>
+        <item>@drawable/e</item>
+        <item>@drawable/f</item>
+        <item>@drawable/g</item>
+        <item>@drawable/h</item>
+        <item>@drawable/i</item>
+        <item>@drawable/j</item>
+        <item>@drawable/k</item>
+        <item>@drawable/l</item>
+        <item>@drawable/m</item>
+        <item>@drawable/n</item>
+        <item>@drawable/o</item>
+        <item>@drawable/p</item>
+        <item>@drawable/q</item>
+        <item>@drawable/r</item>
+        <item>@drawable/s</item>
+        <item>@drawable/t</item>
+        <item>@drawable/u</item>
+        <item>@drawable/v</item>
+        <item>@drawable/w</item>
+        <item>@drawable/x</item>
+        <item>@drawable/y</item>
+        <item>@drawable/z</item>
+    </integer-array>
+    <integer-array name="audio_huruf">
+        <item>@raw/a</item>
+        <item>@raw/b</item>
+        <item>@raw/c</item>
+        <item>@raw/d</item>
+        <item>@raw/e</item>
+        <item>@raw/f</item>
+        <item>@raw/g</item>
+        <item>@raw/h</item>
+        <item>@raw/i</item>
+        <item>@raw/j</item>
+        <item>@raw/k</item>
+        <item>@raw/l</item>
+        <item>@raw/m</item>
+        <item>@raw/n</item>
+        <item>@raw/o</item>
+        <item>@raw/p</item>
+        <item>@raw/q</item>
+        <item>@raw/r</item>
+        <item>@raw/s</item>
+        <item>@raw/t</item>
+        <item>@raw/u</item>
+        <item>@raw/v</item>
+        <item>@raw/w</item>
+        <item>@raw/x</item>
+        <item>@raw/y</item>
+        <item>@raw/z</item>
+    </integer-array>
+    <integer-array name="icon_angka">
+        <item>@drawable/number1</item>
+        <item>@drawable/number2</item>
+        <item>@drawable/number3</item>
+        <item>@drawable/number4</item>
+        <item>@drawable/number5</item>
+        <item>@drawable/number6</item>
+        <item>@drawable/number7</item>
+        <item>@drawable/number8</item>
+        <item>@drawable/number9</item>
+        <item>@drawable/number10</item>
+        <item>@drawable/number11</item>
+        <item>@drawable/number12</item>
+        <item>@drawable/number13</item>
+        <item>@drawable/number14</item>
+        <item>@drawable/number15</item>
+        <item>@drawable/number16</item>
+        <item>@drawable/number17</item>
+        <item>@drawable/number18</item>
+        <item>@drawable/number19</item>
+        <item>@drawable/number20</item>
+    </integer-array>
+    <integer-array name="audio_angka">
+        <item>@raw/number1</item>
+        <item>@raw/number2</item>
+        <item>@raw/number3</item>
+        <item>@raw/number4</item>
+        <item>@raw/number5</item>
+        <item>@raw/number6</item>
+        <item>@raw/number7</item>
+        <item>@raw/number8</item>
+        <item>@raw/number9</item>
+        <item>@raw/number10</item>
+        <item>@raw/number11</item>
+        <item>@raw/number12</item>
+        <item>@raw/number13</item>
+        <item>@raw/number14</item>
+        <item>@raw/number15</item>
+        <item>@raw/number16</item>
+        <item>@raw/number17</item>
+        <item>@raw/number18</item>
+        <item>@raw/number19</item>
+        <item>@raw/number20</item>
+    </integer-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e1bee7</color>
+    <color name="colorPrimaryDark">#af8eb5</color>
+    <color name="colorAccent">#fff1ff</color>
+    <item name="ungu" type="color">#FFAA66CC</item>
+</resources>

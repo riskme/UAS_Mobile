@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg_rainbow"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="BELAJAR HURUF DAN \n BELAJAR KUIS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <!--<ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvAppName"
+        android:layout_centerInParent="true"/>-->
+
+    <Button
+        android:id="@+id/btn_belajar_huruf"
+        android:layout_below="@+id/tvAppName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="Belajar Huruf"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/btn_kuis"
+        android:layout_below="@+id/btn_belajar_huruf"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="KUIS"
+        android:textSize="24sp"/>
+
+</RelativeLayout>
